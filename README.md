@@ -15,10 +15,10 @@ To communicate with the viewer, the library `Rigi.Viewer.Client` can be used. It
   - 'Subscribe' is called to subscribe for notifications. 
   - 'SelectString' is called when a string was selected in the translation tool. 
   - 'TranslateMany' is called to change the translation of one or more strings in the preview. 
-- `IRigiViewerServiceCallback`
-  - `OnStringSelected` is called when the user selected a string in the preview. 
-  - `OnPublishSignatures` is called whenever Rigi detected new strings in the preview. 
-  - `OnClose' is called when the viewer application was shut down by the user. 
+- 'IRigiViewerServiceCallback'
+  - 'OnStringSelected' is called when the user selected a string in the preview. 
+  - 'OnPublishSignatures' is called whenever Rigi detected new strings in the preview. 
+  - 'OnClose' is called when the viewer application was shut down by the user. 
 
 `RigiViewerProxy` is a helper class that 
 
